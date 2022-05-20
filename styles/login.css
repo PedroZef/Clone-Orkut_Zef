@@ -1,0 +1,159 @@
+:root {
+
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgb(235, 192, 217);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif';
+}
+
+.container {
+
+    width: 80%;
+    max-width: 650px;
+    height: 70vh;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+
+    margin: auto;
+    margin-top: 30px;
+
+    box-shadow: 10px 10px 24px 3px rgba(102, 91, 91, 0.69);
+    -webkit-box-shadow: 10px 10px 24px 3px rgba(102, 91, 91, 0.69);
+    -moz-box-shadow: 10px 10px 24px 3px rgba(102, 91, 91, 0.69);
+
+}
+
+.fields {
+
+    margin: 5px 20px;
+    margin-top: 40px;
+
+}
+
+.pink-font {
+
+    color: #e8258e;
+}
+
+.fields__title {
+
+    display: flex;
+    justify-content: center;
+}
+
+#fields__title {
+
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(58, 58, 58);
+
+    margin-top: 20px;
+    margin-bottom: 5%;
+}
+
+.fields__textboxs {
+
+    height: 100px;
+    border: 3px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.fields__textboxs > input {
+
+    border: 4px solid rgb(7, 8, 8);
+    display: flex;
+    height: 40px;
+    border: 2px silver;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 5px;
+
+}
+
+.fields__remenber {
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+#btnlogin {
+
+    width: 80%;
+    border: none;
+    margin-top: 10px;
+    background-color: #e8258e;
+    color: #FFFFFF;
+
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.fields__recovery>a,
+.fields__create>a {
+
+    text-decoration: none;
+    color: rgb(12, 10, 10);
+}
+
+.fields__recovery {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30%;
+
+}
+
+.fields__create {
+
+    font-size: 30px;
+    font-weight: bold;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    border: 5%;
+    
+}
+
+.fixarRodape {
+    background: black;
+    border-top: 1px solid #333;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    position: fixed;
+    text-align: center;
+    background-color: rgb(120, 205, 175);
+    width: 100%;
+    background-position: center;
+}
+
+
+.logo {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+
+    
+}
+
+.logo > img {
+
+    border-radius: 10px;
+    height: 160px;
+    justify-content: center;
+    box-shadow: 10px 10px 24px 3px rgba(102, 91, 91, 0.69);
+     -webkit-box-shadow: 10px 10px 24px 3px rgba(102, 91, 91, 0.69);
+     -moz-box-shadow: 10px 10px 24px 3px rgba(102, 91, 91, 0.69);
+}
+
